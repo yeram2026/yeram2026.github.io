@@ -1,4 +1,11 @@
-﻿:root{
+﻿@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+:root{
     --hue-0: 0;
     --hue-30: 30;
     --hue-60: 60;
@@ -175,8 +182,7 @@ letter-spacing: -0.02em;
 line-height: 1.7;
 }
 h2 {
-
-font-size: 13px;
+font-size: 15px;
 font-weight: 700;
 line-height: 1.7;
 color: navy;
@@ -213,6 +219,6 @@ padding-bottom: 0mm;
 }
 .cute {
   font-family: "Single Day", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
